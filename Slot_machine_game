@@ -1,0 +1,16 @@
+Slot machine game
+
+This Python project is a simple console-based slot machine game. Players can deposit money, place bets on multiple lines, and spin the slot machine to try their luck. The game includes several key features:
+
+	•	Deposit System: Players can deposit money before playing.
+	•	Betting System: Players can choose the number of lines to bet on and the amount to bet per line.
+	•	Slot Machine Simulation: The slot machine randomly generates symbols across a 3x3 grid, with different probabilities for each symbol.
+	•	Winning Calculation: The game checks for matching symbols across the bet lines and calculates the winnings based on the bet and symbol value.
+	•	Balance Tracking: The player’s balance is updated after each spin, and the game ends when the player either quits or runs out of money.
+
+Key Functions:
+
+	•	deposit(): Allows players to deposit money into the game.
+	•	get_number_of_lines(): Prompts players to select the number of lines to bet on.
+	•	get_bet(): Prompts players to enter the amount to bet per line.
+	•	get_slot_machi
